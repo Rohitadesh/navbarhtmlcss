@@ -66,8 +66,8 @@ span {
     /* border: 1px solid salmon; */
     background-color: white;
     position: relative;
-    top: -58px;
-    right: -22px;
+    top: -72px;
+    right: -52px;
     /* bottom: 70px; */
     border-radius: 25px;
 }
@@ -78,9 +78,23 @@ span {
     clip-path: polygon(25% 0, 75% 0, 100% 100%, 0% 100%);
     opacity: 0.6;
     position: relative;
-    top: -60px;
-    left: 10px;
+    top: -72px;
+    left: 37px;
     border-bottom: none;
     background-image: linear-gradient(to bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
 
 }
+
+/* .tubelight .light-rays{
+    float: left;
+} */
+
+/* .tubelight .light-rays li:hover{
+    right: 12px;
+} */
+
+ li:hover{
+    background-position: right 50px;
+
+}
+/* .tubelight .light-rays li.active,.tubelight .light-rays li.active:hover{ background-position:0 12px; } */
